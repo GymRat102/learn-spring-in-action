@@ -1,0 +1,48 @@
+/.gradle/
+**/.DS_Store
+**/build/
+**/classes/
+.gradletasknamecache
+gradle.properties
+
+### IntelliJ IDEA ###
+.idea/*
+!.idea/codeStyles
+.idea/codeStyles/*
+!.idea/codeStyles/codeStyleConfig.xml
+!.idea/codeStyles/Project.xml
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+.shelf
+
+### Zipped archives ###
+**/*.tar
+**/*.jar
+
+### VS Code ###
+**/.classpath
+**/.project
+**/.settings
+**/bin
+
+### Async Api###
+api-service/src/main/resources/static
+api-service/src/main/resources/templates
+asyncapi/index-dev-merged.yaml
+asyncapi/index-qa-merged.yaml
+asyncapi/index-uat-merged.yaml
+asyncapi/index-prod-merged.yaml
+package-lock.json
+package.json
+
+### Don't ignore ###
+!gradle-wrapper.jar
+
+.envrc
+api-service/src/main/resources/bootstrap-local.yaml
+consumer.properties
+**/.docker
+.idea/saveactions_settings.xml
+/node_modules/
