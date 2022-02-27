@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@RequiredArgsConstructor //TODO: what's the difference for different constructor
 public class Ingredient {
 
     private final String id;
