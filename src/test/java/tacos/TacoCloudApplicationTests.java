@@ -12,7 +12,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @RunWith(SpringRunner.class) // not come with initializer project, and need to add Junit4 to classpath
-@WebMvcTest(HomeController.class)
 class TacoCloudApplicationTests {
 
 	@Test
